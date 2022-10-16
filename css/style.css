@@ -1,0 +1,107 @@
+.text-bold {
+  font-weight: 700 !important;
+}
+
+.text-secondary {
+  color: hsl(28deg, 10%, 53%);
+}
+
+body {
+  background-color: hsl(27deg, 66%, 92%);
+  font: 18px "DM Sans", sans-serif;
+}
+
+main {
+  max-width: 540px !important;
+}
+
+h1,
+h2,
+p {
+  line-height: 1;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.chart__container > header, .chart__container .summary {
+  border-radius: 0.8rem;
+}
+.chart__container > header {
+  background-color: hsl(10deg, 79%, 65%);
+  padding: 1.25rem 1.5rem;
+}
+.chart__container > header h2 {
+  color: hsl(27deg, 66%, 92%);
+}
+.chart__container > header p {
+  color: hsl(33deg, 100%, 98%);
+}
+.chart__container .summary {
+  background-color: #fefefe;
+}
+
+#chart {
+  height: 200px;
+  margin-top: 2rem;
+  scale: 1.1;
+  width: 100%;
+}
+#chart .bar {
+  fill: hsl(10deg, 79%, 65%);
+}
+#chart .bar.active {
+  fill: hsl(186deg, 34%, 60%);
+}
+#chart .tick text {
+  font-size: 0.8rem;
+  stroke: hsl(28deg, 10%, 53%);
+  stroke-width: 0.3px;
+  opacity: 0.5;
+}
+#chart .d3-tooltip {
+  height: 35px;
+  opacity: 0;
+  width: 60px;
+}
+#chart .d3-tooltip rect {
+  fill: hsl(25deg, 47%, 15%);
+  height: 35px;
+  width: 62px;
+}
+#chart .d3-tooltip text {
+  font-size: 0.9rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.divider {
+  margin: 1.25rem 0 1.5rem;
+}
+
+@media screen and (min-width: 567px) {
+  .h2 {
+    font-size: 2rem;
+  }
+  .h1 {
+    font-size: 3rem;
+  }
+  .h6,
+p {
+    font-size: 1.1rem;
+  }
+  .chart__container > header {
+    padding: 1.75rem 2rem;
+  }
+  .chart__container .summary {
+    padding: 2rem 2.4rem !important;
+  }
+  .divider {
+    margin: 2rem 0 2rem;
+  }
+}
