@@ -8,7 +8,10 @@
 
 body {
   background-color: hsl(27deg, 66%, 92%);
+  display: grid;
   font: 18px "DM Sans", sans-serif;
+  height: 100vh;
+  place-items: center;
 }
 
 main {
