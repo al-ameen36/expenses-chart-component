@@ -69,6 +69,8 @@ d3.json('data.json').then((data) => {
         .attr('y', (data) => (chartHeight - yScale(data.amount)) - gapUnder + gapOnTop)
         .append('rect')
         .attr('rx', '4')
+        .attr('height', '35')
+        .attr('width', '62')
 
     d3.selectAll('.bar-item')
         .data(data)

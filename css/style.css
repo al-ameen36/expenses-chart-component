@@ -32,7 +32,7 @@ p {
   background-color: hsl(10deg, 79%, 65%);
   padding: 1.25rem 1.5rem;
 }
-.chart__container > header h2 {
+.chart__container > header h1 {
   color: hsl(27deg, 66%, 92%);
 }
 .chart__container > header p {
@@ -67,8 +67,6 @@ p {
 }
 #chart .d3-tooltip rect {
   fill: hsl(25deg, 47%, 15%);
-  height: 35px;
-  width: 62px;
 }
 #chart .d3-tooltip text {
   font-size: 0.9rem;
